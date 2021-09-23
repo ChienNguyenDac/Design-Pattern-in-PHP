@@ -1,0 +1,20 @@
+{
+    "name": "ndc/phpatterns",
+    "description": "Design Pattern in PHP",
+    "autoload": {
+        "psr-4": {
+            "Ndc\\Phpatterns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ChienNguyenDac",
+            "email": "chien.nguyen@enpii.com"
+        }
+    ],
+    "require-dev": {
+        "codeception/codeception": "^4.1",
+        "codeception/module-phpbrowser": "^1.0.0",
+        "codeception/module-asserts": "^1.0.0"
+    }
+}
